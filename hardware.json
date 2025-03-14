@@ -1,0 +1,413 @@
+{
+  "componentes": [
+    {
+      "id": 1,
+      "categoria": "Procesador",
+      "detalles": {
+        "marca": "Intel",
+        "modelo": "Core i7-12700K",
+        "precio": 350.99,
+        "especificaciones": {
+          "frecuencia": "3.8 GHz",
+          "nucleos": 12,
+          "hilos": 20,
+          "cache": "25MB"
+        },
+        "disponibilidad": {
+          "stock": 10,
+          "proveedor": "Proveedor A"
+        },
+        "compatibilidad": ["LGA 1700", "DDR4", "DDR5"]
+      }
+    },
+    {
+      "id": 2,
+      "categoria": "Procesador",
+      "detalles": {
+        "marca": "AMD",
+        "modelo": "Ryzen 7 5800X",
+        "precio": 299.99,
+        "especificaciones": {
+          "frecuencia": "3.8 GHz",
+          "nucleos": 8,
+          "hilos": 16,
+          "cache": "32MB"
+        },
+        "disponibilidad": {
+          "stock": 8,
+          "proveedor": "Proveedor B"
+        },
+        "compatibilidad": ["AM4", "DDR4"]
+      }
+    },
+    {
+      "id": 3,
+      "categoria": "Procesador",
+      "detalles": {
+        "marca": "Intel",
+        "modelo": "Core i9-13900K",
+        "precio": 599.99,
+        "especificaciones": {
+          "frecuencia": "3.0 GHz",
+          "nucleos": 24,
+          "hilos": 32,
+          "cache": "36MB"
+        },
+        "disponibilidad": {
+          "stock": 5,
+          "proveedor": "Proveedor C"
+        },
+        "compatibilidad": ["LGA 1700", "DDR5"]
+      }
+    },
+
+    {
+      "id": 4,
+      "categoria": "Tarjeta Gráfica",
+      "detalles": {
+        "marca": "NVIDIA",
+        "modelo": "RTX 4070",
+        "precio": 599.99,
+        "especificaciones": {
+          "memoria": "12GB GDDR6X",
+          "frecuencia": "1.92 GHz",
+          "consumo": "250W"
+        },
+        "disponibilidad": {
+          "stock": 5,
+          "proveedor": "Proveedor C"
+        },
+        "compatibilidad": ["PCIe 4.0", "DirectX 12", "Ray Tracing"]
+      }
+    },
+    {
+      "id": 5,
+      "categoria": "Tarjeta Gráfica",
+      "detalles": {
+        "marca": "AMD",
+        "modelo": "RX 6800 XT",
+        "precio": 649.99,
+        "especificaciones": {
+          "memoria": "16GB GDDR6",
+          "frecuencia": "2.1 GHz",
+          "consumo": "300W"
+        },
+        "disponibilidad": {
+          "stock": 4,
+          "proveedor": "Proveedor D"
+        },
+        "compatibilidad": ["PCIe 4.0", "DirectX 12", "AMD FidelityFX"]
+      }
+    },
+    {
+      "id": 6,
+      "categoria": "Tarjeta Gráfica",
+      "detalles": {
+        "marca": "NVIDIA",
+        "modelo": "RTX 3060 Ti",
+        "precio": 399.99,
+        "especificaciones": {
+          "memoria": "8GB GDDR6",
+          "frecuencia": "1.67 GHz",
+          "consumo": "200W"
+        },
+        "disponibilidad": {
+          "stock": 6,
+          "proveedor": "Proveedor E"
+        },
+        "compatibilidad": ["PCIe 4.0", "DirectX 12", "DLSS"]
+      }
+    },
+
+    {
+      "id": 7,
+      "categoria": "Placa Base",
+      "detalles": {
+        "marca": "ASUS",
+        "modelo": "ROG STRIX B550-F",
+        "precio": 189.99,
+        "especificaciones": {
+          "socket": "AM4",
+          "memoria_max": "128GB",
+          "factor_forma": "ATX"
+        },
+        "disponibilidad": {
+          "stock": 7,
+          "proveedor": "Proveedor A"
+        },
+        "compatibilidad": ["Ryzen 3000/5000", "PCIe 4.0"]
+      }
+    },
+    {
+      "id": 8,
+      "categoria": "Placa Base",
+      "detalles": {
+        "marca": "MSI",
+        "modelo": "MAG Z490 TOMAHAWK",
+        "precio": 199.99,
+        "especificaciones": {
+          "socket": "LGA 1200",
+          "memoria_max": "64GB",
+          "factor_forma": "ATX"
+        },
+        "disponibilidad": {
+          "stock": 10,
+          "proveedor": "Proveedor B"
+        },
+        "compatibilidad": ["Intel 10th Gen", "DDR4"]
+      }
+    },
+    {
+      "id": 9,
+      "categoria": "Placa Base",
+      "detalles": {
+        "marca": "Gigabyte",
+        "modelo": "AORUS B550 ELITE",
+        "precio": 139.99,
+        "especificaciones": {
+          "socket": "AM4",
+          "memoria_max": "128GB",
+          "factor_forma": "ATX"
+        },
+        "disponibilidad": {
+          "stock": 6,
+          "proveedor": "Proveedor C"
+        },
+        "compatibilidad": ["Ryzen 3000/5000", "PCIe 4.0"]
+      }
+    },
+
+    {
+      "id": 10,
+      "categoria": "Memoria RAM",
+      "detalles": {
+        "marca": "Corsair",
+        "modelo": "Vengeance LPX 16GB",
+        "precio": 89.99,
+        "especificaciones": {
+          "frecuencia": "3200 MHz",
+          "tipo": "DDR4",
+          "latencia": "16-18-18"
+        },
+        "disponibilidad": {
+          "stock": 15,
+          "proveedor": "Proveedor D"
+        },
+        "compatibilidad": ["AM4", "LGA 1151"]
+      }
+    },
+    {
+      "id": 11,
+      "categoria": "Memoria RAM",
+      "detalles": {
+        "marca": "G.SKILL",
+        "modelo": "Ripjaws V 32GB",
+        "precio": 159.99,
+        "especificaciones": {
+          "frecuencia": "3600 MHz",
+          "tipo": "DDR4",
+          "latencia": "16-19-19"
+        },
+        "disponibilidad": {
+          "stock": 10,
+          "proveedor": "Proveedor E"
+        },
+        "compatibilidad": ["AM4", "LGA 1200"]
+      }
+    },
+    {
+      "id": 12,
+      "categoria": "Memoria RAM",
+      "detalles": {
+        "marca": "Kingston",
+        "modelo": "Fury Beast 16GB",
+        "precio": 79.99,
+        "especificaciones": {
+          "frecuencia": "2666 MHz",
+          "tipo": "DDR4",
+          "latencia": "15-17-17"
+        },
+        "disponibilidad": {
+          "stock": 20,
+          "proveedor": "Proveedor F"
+        },
+        "compatibilidad": ["AM4", "LGA 1151"]
+      }
+    },
+
+    {
+      "id": 13,
+      "categoria": "Almacenamiento",
+      "detalles": {
+        "marca": "Samsung",
+        "modelo": "970 EVO Plus 1TB",
+        "precio": 129.99,
+        "especificaciones": {
+          "tipo": "SSD NVMe",
+          "capacidad": "1TB",
+          "velocidad_lectura": "3500 MB/s",
+          "velocidad_escritura": "3300 MB/s"
+        },
+        "disponibilidad": {
+          "stock": 15,
+          "proveedor": "Proveedor G"
+        },
+        "compatibilidad": ["PCIe 3.0", "M.2"]
+      }
+    },
+    {
+      "id": 14,
+      "categoria": "Almacenamiento",
+      "detalles": {
+        "marca": "Western Digital",
+        "modelo": "Black 2TB",
+        "precio": 239.99,
+        "especificaciones": {
+          "tipo": "HDD",
+          "capacidad": "2TB",
+          "rpm": "7200"
+        },
+        "disponibilidad": {
+          "stock": 10,
+          "proveedor": "Proveedor H"
+        },
+        "compatibilidad": ["SATA 3", "3.5 inches"]
+      }
+    },
+    {
+      "id": 15,
+      "categoria": "Almacenamiento",
+      "detalles": {
+        "marca": "Seagate",
+        "modelo": "Barracuda 1TB",
+        "precio": 59.99,
+        "especificaciones": {
+          "tipo": "HDD",
+          "capacidad": "1TB",
+          "rpm": "5400"
+        },
+        "disponibilidad": {
+          "stock": 25,
+          "proveedor": "Proveedor I"
+        },
+        "compatibilidad": ["SATA 3", "3.5 inches"]
+      }
+    },
+
+    {
+      "id": 16,
+      "categoria": "Fuente de Alimentación",
+      "detalles": {
+        "marca": "Corsair",
+        "modelo": "RM850x",
+        "precio": 129.99,
+        "especificaciones": {
+          "potencia": "850W",
+          "certificacion": "80+ Gold",
+          "ventilador": "135mm"
+        },
+        "disponibilidad": {
+          "stock": 8,
+          "proveedor": "Proveedor J"
+        },
+        "compatibilidad": ["ATX", "EPS"]
+      }
+    },
+    {
+      "id": 17,
+      "categoria": "Fuente de Alimentación",
+      "detalles": {
+        "marca": "EVGA",
+        "modelo": "SuperNOVA 750W",
+        "precio": 99.99,
+        "especificaciones": {
+          "potencia": "750W",
+          "certificacion": "80+ Gold",
+          "ventilador": "135mm"
+        },
+        "disponibilidad": {
+          "stock": 5,
+          "proveedor": "Proveedor K"
+        },
+        "compatibilidad": ["ATX", "EPS"]
+      }
+    },
+    {
+      "id": 18,
+      "categoria": "Fuente de Alimentación",
+      "detalles": {
+        "marca": "Be Quiet!",
+        "modelo": "Pure Power 11 600W",
+        "precio": 69.99,
+        "especificaciones": {
+          "potencia": "600W",
+          "certificacion": "80+ Bronze",
+          "ventilador": "120mm"
+        },
+        "disponibilidad": {
+          "stock": 12,
+          "proveedor": "Proveedor L"
+        },
+        "compatibilidad": ["ATX", "EPS"]
+      }
+    },
+
+    {
+      "id": 19,
+      "categoria": "Caja/Torre",
+      "detalles": {
+        "marca": "NZXT",
+        "modelo": "H510",
+        "precio": 69.99,
+        "especificaciones": {
+          "tipo": "ATX Mid Tower",
+          "material": "Steel & Tempered Glass",
+          "ventilacion": "2x120mm"
+        },
+        "disponibilidad": {
+          "stock": 14,
+          "proveedor": "Proveedor M"
+        },
+        "compatibilidad": ["ATX", "Micro-ATX", "Mini-ITX"]
+      }
+    },
+    {
+      "id": 20,
+      "categoria": "Caja/Torre",
+      "detalles": {
+        "marca": "Corsair",
+        "modelo": "iCUE 4000X",
+        "precio": 109.99,
+        "especificaciones": {
+          "tipo": "ATX Mid Tower",
+          "material": "Tempered Glass & Steel",
+          "ventilacion": "3x120mm"
+        },
+        "disponibilidad": {
+          "stock": 9,
+          "proveedor": "Proveedor N"
+        },
+        "compatibilidad": ["ATX", "Micro-ATX", "Mini-ITX"]
+      }
+    },
+    {
+      "id": 21,
+      "categoria": "Caja/Torre",
+      "detalles": {
+        "marca": "Fractal Design",
+        "modelo": "Meshify C",
+        "precio": 89.99,
+        "especificaciones": {
+          "tipo": "ATX Mid Tower",
+          "material": "Steel & Tempered Glass",
+          "ventilacion": "2x120mm"
+        },
+        "disponibilidad": {
+          "stock": 6,
+          "proveedor": "Proveedor O"
+        },
+        "compatibilidad": ["ATX", "Micro-ATX", "Mini-ITX"]
+      }
+    }
+  ]
+}
