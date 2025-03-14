@@ -17,5 +17,24 @@ def listar_procesadores():
             nucleos= componente["detalles"]["especificaciones"]["nucleos"]
             print(f"Modelo: {modelo} | Marca: {marca} | Precio: {precio}€ | Núcleos: {nucleos}")
 
+# Funcion para contar las tarjetas graficas
+def contar_tarjetas_graficas():
+    datos = cargar_json()
+    tarjetas = {}
 
+    for componente in datos["componentes"]:
+        if componente["categoria"] == "Tarjeta Gráfica":
+            modelo = componente["detalles"]["modelo"]
+            unidades = componente["detalles"]["disponibilidad"]["stock"]
+            if modelo in tarjetas:
+                tarjetas[modelo] += unidades
+            else:
+                tarjetas[modelo] = unidades
 
+    print("\n--- Tarjetas gráficas ---")
+    total = 0
+    for modelo, unidades in tarjetas.items():
+        print(f"Modelo: {modelo} | Unidades: {unidades}")
+        total += unidades
+        print(f"Total de tarjetas gráficas: {total}")
+        
