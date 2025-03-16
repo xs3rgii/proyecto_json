@@ -1,5 +1,5 @@
 # 1. Listar información:
-Lista todos los procesadores, mostrando su modelo, precio y número de núcleos.
+Lista todos los procesadores, mostrando su modelo, marca, precio y número de núcleos.
 
 # 2. Contar información:
 Muestra el número total de tarjetas gráficas disponibles y cuántas unidades hay de cada una.
