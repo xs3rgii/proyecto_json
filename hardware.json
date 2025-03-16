@@ -124,10 +124,10 @@
       "categoria": "Placa Base",
       "detalles": {
         "marca": "ASUS",
-        "modelo": "ROG STRIX B550-F",
-        "precio": 189.99,
+        "modelo": "ROG STRIX Z690-E",
+        "precio": 299.99,
         "especificaciones": {
-          "socket": "AM4",
+          "socket": "LGA 1700",
           "memoria_max": "128GB",
           "factor_forma": "ATX"
         },
@@ -135,18 +135,19 @@
           "stock": 7,
           "proveedor": "Proveedor A"
         },
-        "compatibilidad": ["Ryzen 3000/5000", "PCIe 4.0"]
+        "compatibilidad": ["Intel 12th Gen", "DDR5"]
       }
     },
+
     {
       "id": 8,
       "categoria": "Placa Base",
       "detalles": {
         "marca": "MSI",
-        "modelo": "MAG Z490 TOMAHAWK",
-        "precio": 199.99,
+        "modelo": "MAG B550 TOMAHAWK",
+        "precio": 179.99,
         "especificaciones": {
-          "socket": "LGA 1200",
+          "socket": "AM4",
           "memoria_max": "64GB",
           "factor_forma": "ATX"
         },
@@ -154,26 +155,27 @@
           "stock": 10,
           "proveedor": "Proveedor B"
         },
-        "compatibilidad": ["Intel 10th Gen", "DDR4"]
+        "compatibilidad": ["AMD Ryzen 3000/5000", "PCIe 4.0"]
       }
     },
+
     {
       "id": 9,
       "categoria": "Placa Base",
       "detalles": {
         "marca": "Gigabyte",
-        "modelo": "AORUS B550 ELITE",
-        "precio": 139.99,
+        "modelo": "B450M DS3H",
+        "precio": 89.99,
         "especificaciones": {
           "socket": "AM4",
-          "memoria_max": "128GB",
-          "factor_forma": "ATX"
+          "memoria_max": "64GB",
+          "factor_forma": "Micro ATX"
         },
         "disponibilidad": {
-          "stock": 6,
+          "stock": 8,
           "proveedor": "Proveedor C"
         },
-        "compatibilidad": ["Ryzen 3000/5000", "PCIe 4.0"]
+        "compatibilidad": ["AMD Ryzen 1000/2000", "DDR4"]
       }
     },
 
@@ -196,6 +198,7 @@
         "compatibilidad": ["AM4", "LGA 1151"]
       }
     },
+
     {
       "id": 11,
       "categoria": "Memoria RAM",
@@ -215,6 +218,7 @@
         "compatibilidad": ["AM4", "LGA 1200"]
       }
     },
+    
     {
       "id": 12,
       "categoria": "Memoria RAM",
