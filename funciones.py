@@ -113,3 +113,18 @@ def buscar_placas_base_compatibles():
                 print("No se encontraron placas base compatibles con este procesador.")
     else:
         print("Procesador no encontrado. Asegúrate de que el nombre esté correctamente escrito.")
+
+# Funcion ejercicio libre
+def caja_torre_mas_barata_atx():
+    with open('hardware.json', 'r') as f:
+        data = json.load(f)
+    
+    cajas = [comp for comp in data['componentes'] if comp['categoria'] == 'Caja/Torre']
+    cajas_atx = [caja for caja in cajas if 'ATX' in caja['detalles']['compatibilidad']]
+    
+    if cajas_atx:
+        caja_barata = min(cajas_atx, key=lambda x: x['detalles']['precio'])
+        detalles = caja_barata['detalles']
+        print(f"La caja/torre más barata compatible con ATX es {detalles['modelo']} de {detalles['marca']} con un precio de ${detalles['precio']} y {detalles['disponibilidad']['stock']} unidades disponibles.")
+    else:
+        print("No se encontraron cajas/torres compatibles con ATX.")
